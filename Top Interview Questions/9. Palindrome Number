@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+<body>
+  <script type="text/javascript">
+    function isPalindrome(number) {
+      let reverse = number.toString().split('').reverse().join('');
+
+      if (reverse == number) {
+        return true;
+      } else {
+        return false;
+      }
+    }
+    isPalindrome(121);
+  </script>
+</body>
+
+</html>
